@@ -1,6 +1,7 @@
-firstname = str(input('please enter your first name'))
-lastname = str(input('please enter your last name'))
+firstname = str(input('please enter your first name')).lower()
+lastname = str(input('please enter your last name')).lower()
 space = ' '
 concat = firstname + space + lastname
-print(concat[0:9])
+print(concat)
 print(len(concat))
+
