@@ -1,7 +1,6 @@
-firstname = str(input('please enter your first name')).lower()
-lastname = str(input('please enter your last name')).lower()
-space = ' '
-concat = firstname + space + lastname
-print(concat)
-print(len(concat))
-
+rhyme = input('enter the first line of a nursery ryhme')
+amount = len(rhyme)
+print('This has',amount,'letters in it')
+number = int(input('enter a  starting number'))
+number2 = int(input('enter a end number'))
+print(rhyme[number:number2])
